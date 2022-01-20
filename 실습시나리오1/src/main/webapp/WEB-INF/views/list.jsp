@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="com.stone.springmvc.common.Board" %>
 <%
-	Board newBoard = (Board)request.getAttribute("newBoard");
+Board newBoard = (Board)request.getAttribute("newBoard");
 %>
 <!DOCTYPE html>
 <html>

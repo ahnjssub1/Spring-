@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="com.stone.springmvc.common.Board" %>
-<%  Board board = (Board)request.getAttribute("board");  %>    
+<%
+	Board board = (Board)request.getAttribute("board");
+%>    
 <!DOCTYPE html>
 <html>
 <head>
